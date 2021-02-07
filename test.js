@@ -121,40 +121,32 @@
 
 
 
+// const tasks = [
+// 	{
+//     task: 'Помыть кота!',
+//     author: 'Petya'
+//   },
+// 	{
+//     task: 'Купить кота!',
+//     author: 'Petya'
+//   },
+// 	{
+//     task: 'Сделать ДЗ',
+//     author: 'Ivan'
+//   }
+// ];
 
+// function getTasksByAuthor( TODOArray, author) {
 
+// let allTasks = tasks.filter((task) => task.author);
 
-
-
-
-
-
-const tasks = [
-	{
-    task: 'Помыть кота!',
-    author: 'Petya'
-  },
-	{
-    task: 'Купить кота!',
-    author: 'Petya'
-  },
-	{
-    task: 'Сделать ДЗ',
-    author: 'Ivan'
-  }
-];
-
-function getTasksByAuthor( TODOArray, author) {
-
-let allTasks = tasks.filter((task) => task.author);
-
-    console.log(allTasks);
+//     console.log(allTasks);
 
     
 
-//   console.log(result);
-  getTasksByAuthor(myGreatTODOArray, 'Ivan');
-  // возвращает [{ task: 'Сделать ДЗ', author: 'Ivan' }]
+// //   console.log(result);
+//   getTasksByAuthor(myGreatTODOArray, 'Ivan');
+//   // возвращает [{ task: 'Сделать ДЗ', author: 'Ivan' }]
 
 
 
@@ -164,3 +156,14 @@ let allTasks = tasks.filter((task) => task.author);
     //     return author;
         
     // })
+
+//     let iterable = [10, 'avt', 'kto'];
+
+//     for (let value of iterable) {
+//       if (value !== num) {
+//         console.log('Это строка!');
+//       } else if (value !== str) {
+//         console.log('Это число!');
+//       }
+      
+// }
