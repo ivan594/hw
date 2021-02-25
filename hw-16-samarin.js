@@ -13,6 +13,7 @@ class Operator extends Employees { // Менеджер по работе с кл
     getOrder(timeOrderReceipt) {
         this.timeOrderReceipt = timeOrderReceipt;
         console.log(`Заказ получен в ${this.timeOrderReceipt} часов.`);
+        
   }
 }
     let operator = new Operator();
@@ -68,7 +69,7 @@ class unsatisfiedCustomer extends Customers { // Неудволетворенн�
     }
 
     say() {
-        console.log(`Вы доставили пиццу с опозданием, поэтому мы не будем за нее платить.`)
+        console.log(`Вы доставили пиццу с опозданием, поэтому мы не будем за нее платить.`);
     }
 }
 let buyer2 = new unsatisfiedCustomer();
