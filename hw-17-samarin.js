@@ -1,7 +1,7 @@
 // Цели
 let targets = ["goblin", "ork", "pirate"]; 
 let target = "goblin";
-ы
+
 class Enemy {
     constructor(range, demage, color, name, hp) {
         this.range = range;
